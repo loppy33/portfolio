@@ -29,11 +29,11 @@ export default function About() {
                     <div data-aos="fade-up" data-aos-delay="700">
                         <p>Let’s build something great,</p>
                         <span></span>
-                        <img className='sign' src="./sign.png" alt="" />
+                        <img className='sign' src="../sign.png" alt="" />
                     </div>
                 </div>
                 <div className="image">
-                    <img className='photo' src="./photo.png" alt="" data-aos="zoom-in" data-aos-delay="800" />
+                    <img className='photo' src="../photo.png" alt="" data-aos="zoom-in" data-aos-delay="800" />
                     <GetInTouch />
                 </div>
             </div>

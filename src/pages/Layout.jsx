@@ -22,51 +22,51 @@ export default function Layout() {
             <nav className="phone">
                 <ul>
                     <li>
-                        <NavLink to="/portfolio/" end><IoHome /></NavLink>
+                        <NavLink to="./" end><IoHome /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/about/"><FaUser /></NavLink>
+                        <NavLink to="./about/"><FaUser /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/work/"><FaBriefcase /></NavLink>
+                        <NavLink to="./work/"><FaBriefcase /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/stack/"><BsStack /></NavLink>
+                        <NavLink to="./stack/"><BsStack /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/contact/"><IoPencil /></NavLink>
+                        <NavLink to="./contact/"><IoPencil /></NavLink>
                     </li>
                 </ul>
             </nav>
 
             <header data-aos="fade-down">
-                <img onClick={toggleTheme} className='phoneLogo' src={theme === "dark" ? "./Logo.svg" : "./LogoDark.svg"} alt="" />
+                <img onClick={toggleTheme} className='phoneLogo' src={theme === "dark" ? "Logo.svg" : "LogoDark.svg"} alt="" />
 
                 <nav>
                     <ul data-aos="fade-in">
                         <li>
-                            <NavLink to="/portfolio/" end><img className='logo' src={theme === "dark" ? "./Logo.svg" : "./LogoDark.svg"} alt="Logo" /></NavLink>
+                            <NavLink to="./" end><img className='logo' src={theme === "dark" ? "Logo.svg" : "LogoDark.svg"} alt="Logo" /></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/about/">About</NavLink>
+                            <NavLink to="./about/">About</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/work/">Work</NavLink>
+                            <NavLink to="./work/">Work</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/stack/">Tech Stack</NavLink>
+                            <NavLink to="./stack/">Tech Stack</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/contact/">Contact</NavLink>
+                            <NavLink to="./contact/">Contact</NavLink>
                         </li>
                     </ul>
                     <div className='net' data-aos="fade-up">
                         <div className="right">
-                            <a target="_blank" rel="noopener noreferrer" href="https://t.me/codepin/"><img src={theme === "dark" ? "./telegram.png" : "./telegramDark.png"} alt="Telegram" /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/loppy33/"><img src={theme === "dark" ? "./Github.svg" : "./GithubDark.svg"} alt="GitHub" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://t.me/codepin/"><img src={theme === "dark" ? "telegram.png" : "telegramDark.png"} alt="Telegram" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/loppy33/"><img src={theme === "dark" ? "Github.svg" : "GithubDark.svg"} alt="GitHub" /></a>
                         </div>
                         <button onClick={toggleTheme} data-aos="zoom-in">
-                            <img src={theme === "dark" ? "./Sun.svg" : "./Moon.svg"} alt="Toggle Theme" />
+                            <img src={theme === "dark" ? "Sun.svg" : "Moon.svg"} alt="Toggle Theme" />
                         </button>
                     </div>
                 </nav>
@@ -77,7 +77,7 @@ export default function Layout() {
 
             <footer data-aos="fade-up">
                 <div className="left">
-                    <img className='logo' src={theme === "dark" ? "./Logo.svg" : "./LogoDark.svg"} alt="Logo" />
+                    <img className='logo' src={theme === "dark" ? "Logo.svg" : "LogoDark.svg"} alt="Logo" />
                     <span className='thanks'>Thanks for stopping by ッ</span>
                     <span className='rights'>© 2024 Petrenko Nikita. All Rights Reserved.</span>
                 </div>
@@ -86,17 +86,17 @@ export default function Layout() {
                         <ul>
                             <h3>Links</h3>
                             <li>
-                                <NavLink to="/portfolio/about/">About</NavLink>
+                                <NavLink to="./about/">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio/work/">Work</NavLink>
+                                <NavLink to="./work/">Work</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio/stack/">Tech Stack</NavLink>
+                                <NavLink to="./stack/">Tech Stack</NavLink>
 
                             </li>
                             <li>
-                                <NavLink to="/portfolio/contact/">Contact</NavLink>
+                                <NavLink to="./contact/">Contact</NavLink>
                             </li>
                         </ul>
                         <ul>

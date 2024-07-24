@@ -12,42 +12,42 @@ export default function Stack() {
         {
             name: "React.js",
             tag: 'Web Development',
-            image: './react.png',
+            image: 'react.png',
         },
         {
             name: "Next.js",
             tag: 'Web Framework',
-            image: './next.png',
+            image: 'next.png',
         },
         {
             name: "GitHub",
             tag: 'Version Control',
-            image: './github.png',
+            image: 'github.png',
         },
         {
             name: "VSCode",
             tag: 'Editor',
-            image: './visual.png',
+            image: 'visual.png',
         },
         {
             name: "JavaScript",
             tag: 'Language',
-            image: './javascript.png',
+            image: 'javascript.png',
         },
         {
             name: "TypeScript",
             tag: 'Language',
-            image: './typescript.png',
+            image: 'typescript.png',
         },
         {
             name: "Vercel",
             tag: 'Deployment',
-            image: './vercel.png',
+            image: 'vercel.png',
         },
         {
             name: "Figma",
             tag: 'Design',
-            image: './figma.png',
+            image: 'figma.png',
         },
     ];
 
@@ -55,27 +55,27 @@ export default function Stack() {
         {
             name: "Discord",
             tag: 'Communication',
-            image: './discord.png',
+            image: 'discord.png',
         },
         {
             name: "Duolingo",
             tag: 'Education',
-            image: './duolingo.png',
+            image: 'duolingo.png',
         },
         {
             name: "Chrome",
             tag: 'Browser',
-            image: './chrome.png',
+            image: 'chrome.png',
         },
         {
             name: "Spotify",
             tag: 'Music',
-            image: './spotify.png',
+            image: 'spotify.png',
         },
         {
             name: "ChatGPT",
             tag: 'Productivity',
-            image: './chatgpt.png',
+            image: 'chatgpt.png',
         },
     ];
 
@@ -83,37 +83,37 @@ export default function Stack() {
         {
             name: "Apple MacBook Pro 2017",
             tag: '',
-            image: './mac.png',
+            image: 'mac.png',
         },
         {
             name: "Logitech MX Master 2S",
             tag: '',
-            image: './mouse.png',
+            image: 'mouse.png',
         },
         {
             name: "Ajazz AK33",
             tag: '',
-            image: './mon.png',
+            image: 'mon.png',
         },
         {
             name: "Apple iPhone X",
             tag: '',
-            image: './phone.png',
+            image: 'phone.png',
         },
         {
             name: "Apple AirPods 3",
             tag: '',
-            image: './sound.png',
+            image: 'sound.png',
         },
         {
             name: "Ikea LAGKAPTEN / OLOV",
             tag: '',
-            image: './table.png',
+            image: 'table.png',
         },
         {
             name: "Ikea Markus",
             tag: '',
-            image: './ches.png',
+            image: 'ches.png',
         },
     ];
 
@@ -121,7 +121,7 @@ export default function Stack() {
         {
             name: "Brawl Stars",
             tag: '',
-            image: './brawl.png',
+            image: 'brawl.png',
         },
     ];
 
