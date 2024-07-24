@@ -25,16 +25,16 @@ export default function Layout() {
                         <NavLink to="/portfolio/" end><IoHome /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/about"><FaUser /></NavLink>
+                        <NavLink to="/portfolio/about/"><FaUser /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/work"><FaBriefcase /></NavLink>
+                        <NavLink to="/portfolio/work/"><FaBriefcase /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/stack"><BsStack /></NavLink>
+                        <NavLink to="/portfolio/stack/"><BsStack /></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portfolio/contact"><IoPencil /></NavLink>
+                        <NavLink to="/portfolio/contact/"><IoPencil /></NavLink>
                     </li>
                 </ul>
             </nav>
@@ -48,16 +48,16 @@ export default function Layout() {
                             <NavLink to="/portfolio/" end><img className='logo' src={theme === "dark" ? "./Logo.svg" : "./LogoDark.svg"} alt="Logo" /></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/about">About</NavLink>
+                            <NavLink to="/portfolio/about/">About</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/work">Work</NavLink>
+                            <NavLink to="/portfolio/work/">Work</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/stack">Tech Stack</NavLink>
+                            <NavLink to="/portfolio/stack/">Tech Stack</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/portfolio/contact">Contact</NavLink>
+                            <NavLink to="/portfolio/contact/">Contact</NavLink>
                         </li>
                     </ul>
                     <div className='net' data-aos="fade-up">
@@ -86,17 +86,17 @@ export default function Layout() {
                         <ul>
                             <h3>Links</h3>
                             <li>
-                                <NavLink to="/portfolio/about">About</NavLink>
+                                <NavLink to="/portfolio/about/">About</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio/work">Work</NavLink>
+                                <NavLink to="/portfolio/work/">Work</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/portfolio/stack">Tech Stack</NavLink>
+                                <NavLink to="/portfolio/stack/">Tech Stack</NavLink>
 
                             </li>
                             <li>
-                                <NavLink to="/portfolio/contact">Contact</NavLink>
+                                <NavLink to="/portfolio/contact/">Contact</NavLink>
                             </li>
                         </ul>
                         <ul>

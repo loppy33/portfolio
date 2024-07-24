@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 export default function GetInTouch() {
     return (
-        <a className="GetInTouch" href="portfolio/contact"><img src="./GetIcon.svg" alt="" />Get in touch</a>
+        <Link className="GetInTouch" to="portfolio/contact/"><img src="./GetIcon.svg" alt="" />Get in touch</Link>
     )
 }

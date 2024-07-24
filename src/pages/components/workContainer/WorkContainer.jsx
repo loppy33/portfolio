@@ -16,7 +16,7 @@ export default function WorkContainer() {
             banner: "./subbiPhone.png"
         },
         {
-            icon: "assets/apps/react.png",
+            icon: "./react.png",
             name: "React Documentation",
             description: "SWith the release of the new React website on March 16, there was a need for localization to make the documentation accessible to Arabic-speaking developers. I contributed to translating several documentation, worked with great developers, Improved my ability to write better PR requests, and as a side effect, I now know more about the Arabic grammar.",
             link: ["Visit Site", "https://legacy.reactjs.org/"],

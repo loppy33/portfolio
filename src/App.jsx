@@ -24,10 +24,10 @@ function App() {
         <Routes>
           <Route path="/portfolio/" element={<Layout />}>
             <Route path="/portfolio/" element={<Home />} />
-            <Route path="/portfolio/about" element={<About />} />
-            <Route path="/portfolio/work" element={<Projects />} />
-            <Route path="/portfolio/stack" element={<Stack />} />
-            <Route path="/portfolio/contact" element={<Contact />} />
+            <Route path="/portfolio/about/" element={<About />} />
+            <Route path="/portfolio/work/" element={<Projects />} />
+            <Route path="/portfolio/stack/" element={<Stack />} />
+            <Route path="/portfolio/contact/" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
