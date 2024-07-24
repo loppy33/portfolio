@@ -12,42 +12,42 @@ export default function Stack() {
         {
             name: "React.js",
             tag: 'Web Development',
-            image: 'public/assets/apps/react.png',
+            image: './assets/apps/react.png',
         },
         {
             name: "Next.js",
             tag: 'Web Framework',
-            image: 'public/assets/apps/next.png',
+            image: './assets/apps/next.png',
         },
         {
             name: "GitHub",
             tag: 'Version Control',
-            image: 'public/assets/apps/github.png',
+            image: './assets/apps/github.png',
         },
         {
             name: "VSCode",
             tag: 'Editor',
-            image: 'public/assets/apps/visual.png',
+            image: './assets/apps/visual.png',
         },
         {
             name: "JavaScript",
             tag: 'Language',
-            image: 'public/assets/apps/javascript.png',
+            image: './assets/apps/javascript.png',
         },
         {
             name: "TypeScript",
             tag: 'Language',
-            image: 'public/assets/apps/typescript.png',
+            image: './assets/apps/typescript.png',
         },
         {
             name: "Vercel",
             tag: 'Deployment',
-            image: 'public/assets/apps/vercel.png',
+            image: './assets/apps/vercel.png',
         },
         {
             name: "Figma",
             tag: 'Design',
-            image: 'public/assets/apps/figma.png',
+            image: './assets/apps/figma.png',
         },
     ];
 
@@ -55,27 +55,27 @@ export default function Stack() {
         {
             name: "Discord",
             tag: 'Communication',
-            image: 'public/assets/apps/discord.png',
+            image: './assets/apps/discord.png',
         },
         {
             name: "Duolingo",
             tag: 'Education',
-            image: 'public/assets/apps/duolingo.png',
+            image: './assets/apps/duolingo.png',
         },
         {
             name: "Chrome",
             tag: 'Browser',
-            image: 'public/assets/apps/chrome.png',
+            image: './assets/apps/chrome.png',
         },
         {
             name: "Spotify",
             tag: 'Music',
-            image: 'public/assets/apps/spotify.png',
+            image: './assets/apps/spotify.png',
         },
         {
             name: "ChatGPT",
             tag: 'Productivity',
-            image: 'public/assets/apps/chatgpt.png',
+            image: './assets/apps/chatgpt.png',
         },
     ];
 
@@ -83,37 +83,37 @@ export default function Stack() {
         {
             name: "Apple MacBook Pro 2017",
             tag: '',
-            image: 'public/assets/apps/mac.png',
+            image: './assets/apps/mac.png',
         },
         {
             name: "Logitech MX Master 2S",
             tag: '',
-            image: 'public/assets/apps/mouse.png',
+            image: './assets/apps/mouse.png',
         },
         {
             name: "Ajazz AK33",
             tag: '',
-            image: 'public/assets/apps/mon.png',
+            image: './assets/apps/mon.png',
         },
         {
             name: "Apple iPhone X",
             tag: '',
-            image: 'public/assets/apps/phone.png',
+            image: './assets/apps/phone.png',
         },
         {
             name: "Apple AirPods 3",
             tag: '',
-            image: 'public/assets/apps/sound.png',
+            image: './assets/apps/sound.png',
         },
         {
             name: "Ikea LAGKAPTEN / OLOV",
             tag: '',
-            image: 'public/assets/apps/table.png',
+            image: './assets/apps/table.png',
         },
         {
             name: "Ikea Markus",
             tag: '',
-            image: 'public/assets/apps/ches.png',
+            image: './assets/apps/ches.png',
         },
     ];
 
@@ -121,7 +121,7 @@ export default function Stack() {
         {
             name: "Brawl Stars",
             tag: '',
-            image: 'public/assets/apps/brawl.png',
+            image: './assets/apps/brawl.png',
         },
     ];
 
