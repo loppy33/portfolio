@@ -11,7 +11,7 @@ export default function Projects() {
             </div>
             <WorkContainer />
             <div className="yourProject">
-                <img className='stars' src="./stars.png" alt="" />
+                <img className='stars' src="./portfolio/stars.png" alt="" />
                 <div>
                     <h2>YOUR PROJECT GOES HERE</h2>
                     <span>Let's turn idea into visual reality</span>
