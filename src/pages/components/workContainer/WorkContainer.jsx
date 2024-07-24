@@ -36,7 +36,7 @@ export default function WorkContainer() {
                         <img className='appIcon' src={work.icon} alt="" />
                         <h3>{work.name}</h3>
                         <p>{work.description}</p>
-                        <a href={work.link[1]}>{work.link[0]}<img className='arrow' src={theme === "dark" ? "/icons/arrow.svg" : "./arrowDark.svg"} alt="" /></a>
+                        <a href={work.link[1]}>{work.link[0]}<img className='arrow' src={theme === "dark" ? "/icons/arrow.svg" : "/icons//arrowDark.svg"} alt="" /></a>
                     </div>
                     <img className='appImg' src={work.banner} alt="" />
                 </div>
