@@ -1,15 +1,13 @@
-// index.sass
-@import './sass/_colors'
 
 // Переменные
 $border-width: 0.01vw
 $transition-duration: 0.5s
 $font-size-small: 0.8vw
-$font-size-large: 4vw
 $font-size-medium: 1.2vw
+$font-size-large: 4vw
 
 // Глобальные стили
-* 
+*
   margin: 0
   padding: 0
   box-sizing: border-box
@@ -49,76 +47,73 @@ $font-size-medium: 1.2vw
 // Темы
 [data-theme="light"]
   color-scheme: light
-  --main-bg-color: #FBFBFB
-  --main-text-color: rgba(13, 13, 13, 0.87)
+  --background-color: #FBFBFB
+  --text-color: rgba(13, 13, 13, 0.87)
   --header-nav-bg-color: #ffffff40
   --header-nav-border-color: #ffffff40
-  --footer-span-color: rgba(128, 128, 128, 0.565)
+  --footer-text-color: rgba(128, 128, 128, 0.565)
   --footer-right-color: #2c2b2b
   --about-text-span-color: rgba(128, 128, 128, 0.278)
-  --about-text-name-color: #0D0D0D
-  --about-text-p-color: #808080
-  --about-image-photo-border: $border-width solid #323232
-  --work-container-bg-color: #F6F6F6
-  --work-container-border-color: #EBEBEB
-  --contact-form-bg-color: #181818
-  --contact-form-border-color: rgba(128, 128, 128, 0.314)
+  --about-name-color: #0D0D0D
+  --text-muted: #808080
+  --about-image-border: $border-width solid #323232
+  --container-bg-color: #F6F6F6
+  --container-border-color-light: #EBEBEB
+  --container-border-color: rgba(128, 128, 128, 0.314)
+  --form-bg-color: #181818
   --know-me-bg-color: #F6F6F6
-  --know-me-p-color: #808080
-  --projects-bg-color: rgb(246, 246, 246, 0.341)
-  --projects-border-color: rgba(128, 128, 128, 0.314)
-  --projects-div-h2-color: #0D0D0D
-  --projects-div-span-color: rgba(128, 128, 128, 0.314)
-  --stack-h2-color: #808080
-  --stack-apps-container-bg-color: #181818
-  --stack-apps-container-border-color: #272525
-  --stack-apps-container-name-p-color: #0D0D0D
-  --stack-apps-container-name-span-color: #808080
-  --stack-apps-container-name-span-border-color: #FFFFFF70
+  --project-bg-color: rgba(246, 246, 246, 0.341)
+  --project-border-color: rgba(128, 128, 128, 0.314)
+  --project-heading-color: #0D0D0D
+  --project-span-color: rgba(128, 128, 128, 0.314)
+  --stack-heading-color: #808080
+  --stack-bg-color: #181818
+  --stack-border-color: #272525
+  --stack-name-p-color: #0D0D0D
+  --stack-name-span-color: #808080
+  --stack-name-span-border-color: #FFFFFF70
 
 [data-theme="dark"]
   color-scheme: dark
-  --main-bg-color: #0D0D0D
-  --main-text-color: rgba(255, 255, 255, 0.87)
+  --background-color: #0D0D0D
+  --text-color: rgba(255, 255, 255, 0.87)
   --header-nav-bg-color: rgba(24, 24, 24, 0.188)
   --header-nav-border-color: rgba(128, 128, 128, 0.219)
-  --footer-span-color: rgba(128, 128, 128, 0.565)
+  --footer-text-color: rgba(128, 128, 128, 0.565)
   --footer-right-color: #C5C5C5
   --about-text-span-color: rgba(128, 128, 128, 0.278)
-  --about-text-name-color: #FFFFFF
-  --about-text-p-color: #808080
-  --about-image-photo-border: $border-width solid #323232
-  --work-container-bg-color: #181818
-  --work-container-border-color: rgba(128, 128, 128, 0.314)
-  --contact-form-bg-color: #181818
-  --contact-form-border-color: rgba(128, 128, 128, 0.314)
+  --about-name-color: #FFFFFF
+  --text-muted: #808080
+  --about-image-border: $border-width solid #323232
+  --container-bg-color: #181818
+  --container-border-color: rgba(128, 128, 128, 0.314)
+  --form-bg-color: #181818
   --know-me-bg-color: rgba(21, 21, 21, 0.9)
-  --know-me-p-color: #808080
-  --projects-bg-color: rgba(13, 13, 13, 0.314)
-  --projects-border-color: rgba(128, 128, 128, 0.314)
-  --projects-div-h2-color: #FFFFFF
-  --projects-div-span-color: rgba(128, 128, 128, 0.314)
-  --stack-h2-color: #808080
-  --stack-apps-container-bg-color: #181818
-  --stack-apps-container-border-color: #272525
-  --stack-apps-container-name-p-color: #FFFFFF
-  --stack-apps-container-name-span-color: #808080
-  --stack-apps-container-name-span-border-color: #383737
+  --project-bg-color: rgba(13, 13, 13, 0.314)
+  --project-border-color: rgba(128, 128, 128, 0.314)
+  --project-heading-color: #FFFFFF
+  --project-span-color: rgba(128, 128, 128, 0.314)
+  --stack-heading-color: #808080
+  --stack-bg-color: #181818
+  --stack-border-color: #272525
+  --stack-name-p-color: #FFFFFF
+  --stack-name-span-color: #808080
+  --stack-name-span-border-color: #383737
 
 // Общие стили
 body
   transition: $transition-duration
-  background-color: var(--main-bg-color)
-  color: var(--main-text-color)
+  background-color: var(--background-color)
+  color: var(--text-color)
 
   a
-    color: var(--main-text-color)
+    color: var(--text-color)
     font-size: $font-size-small
     text-decoration: inherit
     transition: 0.3s
 
   p
-    color: $darkGray
+    color: var(--text-muted)
 
 header
   nav
@@ -127,7 +122,7 @@ header
 
 footer
   span
-    color: var(--footer-span-color)
+    color: var(--footer-text-color)
 
   .right
     color: var(--footer-right-color)
@@ -143,44 +138,44 @@ footer
         color: var(--about-text-span-color)
 
         &.name
-          color: var(--about-text-name-color)
+          color: var(--about-name-color)
 
       p
-        color: var(--about-text-p-color)
+        color: var(--text-muted)
     .image
       .photo
-        border: var(--about-image-photo-border)
+        border: var(--about-image-border)
 
 .WorkContainer
   .work
-    background-color: var(--work-container-bg-color)
-    border: 1px solid var(--work-container-border-color)
+    background-color: var(--container-bg-color)
+    border: 1px solid var(--container-border-color-light)
 
     .info
       p
-        color: $darkGray
+        color: var(--text-muted)
 
       a
-        color: var(--main-text-color)
+        color: var(--text-color)
 
 .Contact
   form
-    background-color: var(--work-container-bg-color)
-    border: 1px solid var(--work-container-border-color)
+    background-color: var(--container-bg-color)
+    border: 1px solid var(--container-border-color)
 
     .newMessage
-      border-bottom: 1px solid var(--work-container-border-color)
+      border-bottom: 1px solid var(--container-border-color)
 
     .formContainer
       label
-        color: var(--main-text-color)
-        border-bottom: 1px solid var(--work-container-border-color)
+        color: var(--text-color)
+        border-bottom: 1px solid var(--container-border-color)
 
       .write
-        background-color: var(--work-container-border-color)
+        background-color: var(--container-border-color)
 
       button
-        color: $white
+        color: #fff
 
 .KnowMe
   .knowMeContainer
@@ -188,39 +183,39 @@ footer
       background-color: var(--know-me-bg-color)
 
     p
-      color: var(--know-me-p-color)
+      color: var(--text-muted)
 
   .lets
     p
-      color: rgba($darkGray, 0.314)
+      color: rgba(var(--text-muted), 0.314)
 
 .Projects
   .yourProject
-    background-color: var(--projects-bg-color)
-    border: 3px dashed var(--projects-border-color)
+    background-color: var(--project-bg-color)
+    border: 3px dashed var(--project-border-color)
 
     div
       h2
-        color: var(--projects-div-h2-color)
+        color: var(--project-heading-color)
 
       span
-        color: var(--projects-div-span-color)
+        color: var(--project-span-color)
 
 .Stack
   h2
-    color: var(--stack-h2-color)
+    color: var(--stack-heading-color)
 
   .appsContainer
     .app
-      border: 1px solid var(--work-container-bg-color)
-      background-color: var(--work-container-bg-color)
+      border: 1px solid var(--stack-bg-color)
+      background-color: var(--stack-bg-color)
 
       .name
         p
-          color: var(--stack-apps-container-name-p-color)
+          color: var(--stack-name-p-color)
         span
-          color: var(--stack-apps-container-name-span-color)
-          border: 1px solid var(--stack-apps-container-name-span-border-color)
+          color: var(--stack-name-span-color)
+          border: 1px solid var(--stack-name-span-border-color)
 
 ul, nav
   list-style: none
@@ -242,7 +237,7 @@ button
   max-width: 20vw
   gap: 1vw
   font-size: 1vw
-  color: $white
+  color: #fff
   background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(19,19,19,1) 100%)
   box-shadow: rgba(0, 0, 0, 0.55) 0px 0.5vw 1.5vw
   padding: 0.8vw 1.8vw
@@ -250,9 +245,10 @@ button
 
   img
     width: 1vw
+
 .title
   margin-top: 10vw
-  border-bottom: $border-width solid $darkWhite10
+  border-bottom: $border-width solid var(--text-muted)
   padding-bottom: 2.5vw
 
   h1
@@ -261,9 +257,9 @@ button
 
   span
     font-size: $font-size-medium
-    color: rgba($darkGray, 0.314)
+    color: rgba(var(--text-muted), 0.314)
 
-@media ( max-width: 720px  )
+@media ( max-width: 720px )
   :root
     &::before, &::after
       content: ""
@@ -284,8 +280,6 @@ button
     &::after
       display: none
 
-
-
   .container
     max-width: 95vw
     margin: auto
@@ -298,7 +292,7 @@ button
       max-width: 50vw
       gap: 2vw
       font-size: 5vw
-      color: $white
+      color: #fff
       background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(19,19,19,1) 100%)
       box-shadow: rgba(0, 0, 0, 0.55) 0px 0.5vw 1.5vw
       padding: 2vw 4vw
@@ -309,7 +303,7 @@ button
 
     .title
       margin-top: 10vw
-      border-bottom: $border-width solid $darkWhite10
+      border-bottom: $border-width solid var(--text-muted)
       padding-bottom: 2.5vw
 
       h1
@@ -318,5 +312,4 @@ button
 
       span
         font-size: 2vh
-        color: rgba($darkGray, 0.314)
-
+        color: rgba(var(--text-muted), 0.314)
