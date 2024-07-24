@@ -15,16 +15,16 @@ export default function KnowMe() {
         <div className="KnowMe">
             <h2>Get to know me</h2>
             <div className="knowMeContainer">
-                <Link to='/portfolio/about/' data-aos="fade-right">
+                <Link to='/about/' data-aos="fade-right">
                     <h3>About me</h3>
                     <p>Who I am and what I do</p>
-                    <img src="./portfolio/Memoji.png" alt="" />
+                    <img src="/other/Memoji.png" alt="" />
                 </Link>
 
-                <Link to='/portfolio/stack/' data-aos="fade-left">
+                <Link to='/stack/' data-aos="fade-left">
                     <h3>Tech Stack</h3>
                     <p>The dev tools, apps, devices, and games I use and play.</p>
-                    <img src="./portfolio/Apps.png" alt="" />
+                    <img src="/other/Apps.png" alt="" />
                 </Link>
             </div>
             <div className='lets' data-aos="zoom-in">

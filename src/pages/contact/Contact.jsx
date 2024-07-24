@@ -19,7 +19,7 @@ export default function Contact() {
             </div>
             <form data-aos="fade-up">
                 <div className="newMessage" data-aos="zoom-in">
-                    <img src="./portfolio/settings.png" alt="settings" />
+                    <img src="/other/settings.png" alt="settings" />
                     <h3>New message</h3>
                 </div>
                 <div className="formContainer">
@@ -37,9 +37,9 @@ export default function Contact() {
                 </div>
             </form>
             <div className="links">
-                <a target="_blank" rel="noopener noreferrer" href="https://t.me/codepin/"><img src={theme === "dark" ? "../portfolio/telegram.png" : "./portfolio/telegramDark.png"} alt="Telegram" /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/loppy33/"><img src={theme === "dark" ? "./portfolio/Github.svg" : "./portfolio/GithubDark.svg"} alt="GitHub" /></a>
-                <a target="_blank" href="mailto:nikita.petrenko1406@gmail.com"><img src={theme === "dark" ? "./portfolio/mailDark.svg" : "./portfolio/mailLight.svg"} alt="Email" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://t.me/codepin/"><img src={theme === "dark" ? "/icons/telegram.png" : "/icons/telegramDark.png"} alt="Telegram" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/loppy33/"><img src={theme === "dark" ? "/icons/Github.svg" : "/icons/GithubDark.svg"} alt="GitHub" /></a>
+                <a target="_blank" href="mailto:nikita.petrenko1406@gmail.com"><img src={theme === "dark" ? "/icons/mailDark.svg" : "/icons/mailLight.svg"} alt="Email" /></a>
             </div>
         </div>
     );

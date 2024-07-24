@@ -12,42 +12,42 @@ export default function Stack() {
         {
             name: "React.js",
             tag: 'Web Development',
-            image: './portfolio/react.png',
+            image: '/apps/react.png',
         },
         {
             name: "Next.js",
             tag: 'Web Framework',
-            image: './portfolio/next.png',
+            image: '/apps/next.png',
         },
         {
             name: "GitHub",
             tag: 'Version Control',
-            image: './portfolio/github.png',
+            image: '/apps/github.png',
         },
         {
             name: "VSCode",
             tag: 'Editor',
-            image: './portfolio/visual.png',
+            image: '/apps/visual.png',
         },
         {
             name: "JavaScript",
             tag: 'Language',
-            image: './portfolio/javascript.png',
+            image: '/apps/javascript.png',
         },
         {
             name: "TypeScript",
             tag: 'Language',
-            image: './portfolio/typescript.png',
+            image: '/apps/typescript.png',
         },
         {
             name: "Vercel",
             tag: 'Deployment',
-            image: './portfolio/vercel.png',
+            image: '/apps/vercel.png',
         },
         {
             name: "Figma",
             tag: 'Design',
-            image: './portfolio/figma.png',
+            image: '/apps/figma.png',
         },
     ];
 
@@ -55,27 +55,27 @@ export default function Stack() {
         {
             name: "Discord",
             tag: 'Communication',
-            image: './portfolio/discord.png',
+            image: '/apps/discord.png',
         },
         {
             name: "Duolingo",
             tag: 'Education',
-            image: './portfolio/duolingo.png',
+            image: '/apps/duolingo.png',
         },
         {
             name: "Chrome",
             tag: 'Browser',
-            image: './portfolio/chrome.png',
+            image: '/apps/chrome.png',
         },
         {
             name: "Spotify",
             tag: 'Music',
-            image: './portfolio/spotify.png',
+            image: '/apps/spotify.png',
         },
         {
             name: "ChatGPT",
             tag: 'Productivity',
-            image: './portfolio/chatgpt.png',
+            image: '/apps/chatgpt.png',
         },
     ];
 
@@ -83,37 +83,37 @@ export default function Stack() {
         {
             name: "Apple MacBook Pro 2017",
             tag: '',
-            image: './portfolio/mac.png',
+            image: '/apps/mac.png',
         },
         {
             name: "Logitech MX Master 2S",
             tag: '',
-            image: './portfolio/mouse.png',
+            image: '/apps/mouse.png',
         },
         {
             name: "Ajazz AK33",
             tag: '',
-            image: './portfolio/mon.png',
+            image: '/apps/mon.png',
         },
         {
             name: "Apple iPhone X",
             tag: '',
-            image: './portfolio/phone.png',
+            image: '/apps/phone.png',
         },
         {
             name: "Apple AirPods 3",
             tag: '',
-            image: './portfolio/sound.png',
+            image: '/apps/sound.png',
         },
         {
             name: "Ikea LAGKAPTEN / OLOV",
             tag: '',
-            image: './portfolio/table.png',
+            image: '/apps/table.png',
         },
         {
             name: "Ikea Markus",
             tag: '',
-            image: './portfolio/ches.png',
+            image: '/apps/ches.png',
         },
     ];
 
@@ -121,7 +121,7 @@ export default function Stack() {
         {
             name: "Brawl Stars",
             tag: '',
-            image: './portfolio/brawl.png',
+            image: '/apps/brawl.png',
         },
     ];
 
