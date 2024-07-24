@@ -19,13 +19,18 @@ export default function About() {
                 <div className="text">
                     <span data-aos="fade-up">WHO I AM</span>
                     <p data-aos="fade-up" data-aos-delay="100">I'm <span className='name'>Nikita</span>, Fullstack web developer from Ukraine.</p>
+
                     <span data-aos="fade-up" data-aos-delay="200">WHAT I DO</span>
-                    <p data-aos="fade-up" data-aos-delay="300">With two years of invaluable experience working at Harmony Technology, a technology company based here in Rabat, I have honed my skills in React.js, Next.js, TailwindCSS and TypeScript, allowing me to create seamless and interactive user experiences. During my time at Harmony Technology, I was privileged to work on projects for esteemed clients such as the Ministry of Health, the Ministry of Education, and the Ministry of Justice. It was an incredibly rewarding application development experience.</p>
+                    <p data-aos="fade-up" data-aos-delay="300">With two years of invaluable experience working at Harmony Technology, a technology company based here in Rabat, I have honed my skills in React.js, Next.js, TailwindCSS, and TypeScript, allowing me to create seamless and interactive user experiences. During my time at Harmony Technology, I was privileged to work on projects for esteemed clients such as the Ministry of Health, the Ministry of Education, and the Ministry of Justice. It was an incredibly rewarding application development experience.</p>
+
+                    <p data-aos="fade-up" data-aos-delay="350">As a passionate web developer, I focus on creating dynamic and responsive web applications. My expertise in full stack development ensures that I can handle both front-end and back-end tasks efficiently, delivering comprehensive solutions that meet client needs.</p>
+
                     <span data-aos="fade-up" data-aos-delay="400">WHAT I DID</span>
-                    <p data-aos="fade-up" data-aos-delay="500">Before delving into the realm of front end engineering, I spent five years as a graphic designer. This background has equipped me with a keen eye for aesthetics and a deep understanding of user-centered design principles. It enables me to seamlessly blend functionality and visual appeal in every project I undertake.</p>
+                    <p data-aos="fade-up" data-aos-delay="500">Before delving into the realm of front-end engineering, I spent five years as a graphic designer. This background has equipped me with a keen eye for aesthetics and a deep understanding of user-centered design principles. It enables me to seamlessly blend functionality and visual appeal in every project I undertake.</p>
+
                     <span className='double'></span>
                     <p data-aos="fade-up" data-aos-delay="600">Feel free to reach out via e-mail, or follow me on Twitter. Want to see where I’ve worked? Check out my Resume, or Connect with me on LinkedIn.</p>
-                    <span ></span>
+                    <span></span>
                     <div data-aos="fade-up" data-aos-delay="700">
                         <p>Let’s build something great,</p>
                         <span></span>
