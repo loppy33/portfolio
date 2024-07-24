@@ -1,0 +1,322 @@
+// index.sass
+@import './sass/_colors'
+
+// Переменные
+$border-width: 0.01vw
+$transition-duration: 0.5s
+$font-size-small: 0.8vw
+$font-size-large: 4vw
+$font-size-medium: 1.2vw
+
+// Глобальные стили
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+:root
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif
+  line-height: 1.5
+  font-weight: 400
+  font-synthesis: none
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  &::before, &::after
+    content: ""
+    position: fixed
+    left: 0
+    right: 0
+    z-index: -1
+    background-repeat: no-repeat
+    background-size: contain
+
+  &::before
+    top: 0
+    height: 25vw
+    width: 100vw
+    background-image: url('./assets/dark/backTop.png')
+    background-position: top
+
+  &::after
+    bottom: 0
+    height: 25vw
+    width: 100vw
+    background-image: url('./assets/dark/backBottom.png')
+    background-position: top
+
+// Темы
+[data-theme="light"]
+  color-scheme: light
+  --main-bg-color: #FBFBFB
+  --main-text-color: rgba(13, 13, 13, 0.87)
+  --header-nav-bg-color: #ffffff40
+  --header-nav-border-color: #ffffff40
+  --footer-span-color: rgba(128, 128, 128, 0.565)
+  --footer-right-color: #2c2b2b
+  --about-text-span-color: rgba(128, 128, 128, 0.278)
+  --about-text-name-color: #0D0D0D
+  --about-text-p-color: #808080
+  --about-image-photo-border: $border-width solid #323232
+  --work-container-bg-color: #F6F6F6
+  --work-container-border-color: #EBEBEB
+  --contact-form-bg-color: #181818
+  --contact-form-border-color: rgba(128, 128, 128, 0.314)
+  --know-me-bg-color: #F6F6F6
+  --know-me-p-color: #808080
+  --projects-bg-color: rgb(246, 246, 246, 0.341)
+  --projects-border-color: rgba(128, 128, 128, 0.314)
+  --projects-div-h2-color: #0D0D0D
+  --projects-div-span-color: rgba(128, 128, 128, 0.314)
+  --stack-h2-color: #808080
+  --stack-apps-container-bg-color: #181818
+  --stack-apps-container-border-color: #272525
+  --stack-apps-container-name-p-color: #0D0D0D
+  --stack-apps-container-name-span-color: #808080
+  --stack-apps-container-name-span-border-color: #FFFFFF70
+
+[data-theme="dark"]
+  color-scheme: dark
+  --main-bg-color: #0D0D0D
+  --main-text-color: rgba(255, 255, 255, 0.87)
+  --header-nav-bg-color: rgba(24, 24, 24, 0.188)
+  --header-nav-border-color: rgba(128, 128, 128, 0.219)
+  --footer-span-color: rgba(128, 128, 128, 0.565)
+  --footer-right-color: #C5C5C5
+  --about-text-span-color: rgba(128, 128, 128, 0.278)
+  --about-text-name-color: #FFFFFF
+  --about-text-p-color: #808080
+  --about-image-photo-border: $border-width solid #323232
+  --work-container-bg-color: #181818
+  --work-container-border-color: rgba(128, 128, 128, 0.314)
+  --contact-form-bg-color: #181818
+  --contact-form-border-color: rgba(128, 128, 128, 0.314)
+  --know-me-bg-color: rgba(21, 21, 21, 0.9)
+  --know-me-p-color: #808080
+  --projects-bg-color: rgba(13, 13, 13, 0.314)
+  --projects-border-color: rgba(128, 128, 128, 0.314)
+  --projects-div-h2-color: #FFFFFF
+  --projects-div-span-color: rgba(128, 128, 128, 0.314)
+  --stack-h2-color: #808080
+  --stack-apps-container-bg-color: #181818
+  --stack-apps-container-border-color: #272525
+  --stack-apps-container-name-p-color: #FFFFFF
+  --stack-apps-container-name-span-color: #808080
+  --stack-apps-container-name-span-border-color: #383737
+
+// Общие стили
+body
+  transition: $transition-duration
+  background-color: var(--main-bg-color)
+  color: var(--main-text-color)
+
+  a
+    color: var(--main-text-color)
+    font-size: $font-size-small
+    text-decoration: inherit
+    transition: 0.3s
+
+  p
+    color: $darkGray
+
+header
+  nav
+    background-color: var(--header-nav-bg-color)
+    border: $border-width solid var(--header-nav-border-color)
+
+footer
+  span
+    color: var(--footer-span-color)
+
+  .right
+    color: var(--footer-right-color)
+
+.Greetings
+  a
+    color: #fff
+
+.About
+  .aboutContainer
+    .text
+      span
+        color: var(--about-text-span-color)
+
+        &.name
+          color: var(--about-text-name-color)
+
+      p
+        color: var(--about-text-p-color)
+    .image
+      .photo
+        border: var(--about-image-photo-border)
+
+.WorkContainer
+  .work
+    background-color: var(--work-container-bg-color)
+    border: 1px solid var(--work-container-border-color)
+
+    .info
+      p
+        color: $darkGray
+
+      a
+        color: var(--main-text-color)
+
+.Contact
+  form
+    background-color: var(--work-container-bg-color)
+    border: 1px solid var(--work-container-border-color)
+
+    .newMessage
+      border-bottom: 1px solid var(--work-container-border-color)
+
+    .formContainer
+      label
+        color: var(--main-text-color)
+        border-bottom: 1px solid var(--work-container-border-color)
+
+      .write
+        background-color: var(--work-container-border-color)
+
+      button
+        color: $white
+
+.KnowMe
+  .knowMeContainer
+    a
+      background-color: var(--know-me-bg-color)
+
+    p
+      color: var(--know-me-p-color)
+
+  .lets
+    p
+      color: rgba($darkGray, 0.314)
+
+.Projects
+  .yourProject
+    background-color: var(--projects-bg-color)
+    border: 3px dashed var(--projects-border-color)
+
+    div
+      h2
+        color: var(--projects-div-h2-color)
+
+      span
+        color: var(--projects-div-span-color)
+
+.Stack
+  h2
+    color: var(--stack-h2-color)
+
+  .appsContainer
+    .app
+      border: 1px solid var(--work-container-bg-color)
+      background-color: var(--work-container-bg-color)
+
+      .name
+        p
+          color: var(--stack-apps-container-name-p-color)
+        span
+          color: var(--stack-apps-container-name-span-color)
+          border: 1px solid var(--stack-apps-container-name-span-border-color)
+
+ul, nav
+  list-style: none
+
+button
+  background: none
+  border: none
+  outline: none
+
+.container
+  max-width: 60vw
+  margin: auto
+  position: relative
+
+.GetInTouch
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 20vw
+  gap: 1vw
+  font-size: 1vw
+  color: $white
+  background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(19,19,19,1) 100%)
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 0.5vw 1.5vw
+  padding: 0.8vw 1.8vw
+  border-radius: 0.7vw
+
+  img
+    width: 1vw
+.title
+  margin-top: 10vw
+  border-bottom: $border-width solid $darkWhite10
+  padding-bottom: 2.5vw
+
+  h1
+    font-size: $font-size-large
+    margin-bottom: 1.8vw
+
+  span
+    font-size: $font-size-medium
+    color: rgba($darkGray, 0.314)
+
+@media ( max-width: 720px  )
+  :root
+    &::before, &::after
+      content: ""
+      position: fixed
+      left: 0
+      right: 0
+      z-index: -1
+      background-repeat: no-repeat
+      background-size: contain
+
+    &::before
+      top: 0
+      height: 100%
+      width: 100%
+      background-image: url('./assets/dark/backgroundPhoneTop.png')
+      background-position: top
+
+    &::after
+      display: none
+
+
+
+  .container
+    max-width: 95vw
+    margin: auto
+    position: relative
+
+    .GetInTouch
+      display: flex
+      align-items: center
+      justify-content: center
+      max-width: 50vw
+      gap: 2vw
+      font-size: 5vw
+      color: $white
+      background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(19,19,19,1) 100%)
+      box-shadow: rgba(0, 0, 0, 0.55) 0px 0.5vw 1.5vw
+      padding: 2vw 4vw
+      border-radius: 2vw
+
+      img
+        width: 5vw
+
+    .title
+      margin-top: 10vw
+      border-bottom: $border-width solid $darkWhite10
+      padding-bottom: 2.5vw
+
+      h1
+        font-size: 5vh
+        margin-bottom: 1vw
+
+      span
+        font-size: 2vh
+        color: rgba($darkGray, 0.314)
+
